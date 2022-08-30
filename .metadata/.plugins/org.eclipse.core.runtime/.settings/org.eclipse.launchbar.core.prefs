@@ -1,0 +1,10 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+activeLaunchTarget=null\:---
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:fxe_vrm_demo_01,org.eclipse.launchbar.core.descriptorType.default\:fxe_vrm_demo_01 - FxeVrmDemo01Application
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:fxe_vrm_demo_01\ -\ FxeVrmDemo01Application/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:fxe_vrm_demo_01\ -\ FxeVrmDemo01Application/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:fxe_vrm_demo_01-1\ -\ FxeVrmDemo011Application/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:fxe_vrm_demo_01-1\ -\ FxeVrmDemo011Application/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
