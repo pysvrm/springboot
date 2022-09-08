@@ -5,11 +5,14 @@ import java.util.Map;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.example.demo.vrm.ObjetosPruebaVrm;
+import com.example.demo.entity.ObjetosPruebaVrm;
+import com.example.demo.entity.Usuario;
 
 @Controller
+@RequestMapping("/app")
 public class IndexController {
 
 	public ObjetosPruebaVrm objetosPruebaVrm = new ObjetosPruebaVrm();
@@ -23,6 +26,18 @@ public class IndexController {
 		modelV.addObject("objetosPruebaVrm",objetosPruebaVrm);
 		modelV.setViewName("index");
 		return modelV;
+	}
+	
+	@RequestMapping("/perfil")
+	public String pefil(Model model) {
+		Usuario usuario = new Usuario();
+		usuario.nombre="Vladimir";
+				usuario.setApellidoP("Rodriguez");
+		model.addAttribute("titulo","Perfil");		
+		model.addAttribute("usuario", usuario);
+		
+		return "perfil";
+		
 	}
 	
 

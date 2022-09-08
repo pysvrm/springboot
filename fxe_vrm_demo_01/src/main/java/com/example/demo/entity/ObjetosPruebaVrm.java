@@ -1,4 +1,4 @@
-package com.example.demo.vrm;
+package com.example.demo.entity;
 
 public class ObjetosPruebaVrm {
 	
